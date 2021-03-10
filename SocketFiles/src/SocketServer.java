@@ -10,7 +10,7 @@ import java.util.List;
 
 //part 2
 public class SocketServer {
-	int port = 3001;
+	int port = 3002;
 
 	public SocketServer() {
 	}
