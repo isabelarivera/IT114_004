@@ -1,3 +1,4 @@
+
 package client;
 
 public interface Event {
@@ -8,4 +9,8 @@ public interface Event {
     void onMessageReceive(String clientName, String message);
 
     void onChangeRoom();
+    
+    void onGetRoom(String roomName);
+    
+    void onIsMuted(String clientName, boolean isMuted);
 }

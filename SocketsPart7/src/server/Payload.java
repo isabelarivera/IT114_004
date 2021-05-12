@@ -47,7 +47,16 @@ public class Payload implements Serializable {
     public int getNumber() {
 	return this.number;
     }
-
+    
+    private boolean flag;
+    
+    public void setFlag(boolean flag) {
+    	this.flag = flag;
+    }
+    public boolean getFlag() {
+    	return this.flag;
+    }
+    
     @Override
     public String toString() {
 	return String.format("Type[%s], Number[%s], Message[%s]", getPayloadType().toString(), getNumber(),
